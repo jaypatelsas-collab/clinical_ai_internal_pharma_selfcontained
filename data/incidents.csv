@@ -1,0 +1,4 @@
+Incident_ID,Initiative_ID,Summary,Category,Severity,Status,Detected_Date,Department,Action
+INC-001,CAI-002,Output inconsistency identified during QC,Quality,Medium,Open,2026-06-18,Statistical Programming,Model output corrected; root cause review underway
+INC-002,CAI-007,CTMS feed delayed,Data Integration,Low,Monitoring,2026-06-10,Clinical Operations,Fallback scheduled export activated
+INC-003,CAI-008,Human override rate above target,Performance,Medium,CAPA Open,2026-06-22,Safety/PV,Prompt and workflow review assigned
