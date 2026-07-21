@@ -1,0 +1,97 @@
+Department,Control,Category,Status,Evidence_Confidence,Due_Date,Owner,Evidence_ID,Review_Frequency
+Statistical Programming,Intended use approved,Governance,Complete,50%,2026-07-01,A. Shah,EV-01-01,Quarterly
+Statistical Programming,GxP classification documented,Compliance,Complete,53%,2026-08-02,A. Shah,EV-01-02,Per release
+Statistical Programming,Privacy assessment completed,Privacy,In Progress,56%,2026-09-03,A. Shah,EV-01-03,Quarterly
+Statistical Programming,Security assessment completed,Security,Gap,59%,2026-10-04,A. Shah,EV-01-04,Per release
+Statistical Programming,Human oversight documented,Governance,Complete,62%,2026-11-05,A. Shah,EV-01-05,Quarterly
+Statistical Programming,Validation evidence available,Quality,Complete,65%,2026-12-06,A. Shah,EV-01-06,Per release
+Statistical Programming,Audit trail enabled,Compliance,In Progress,68%,2026-01-07,A. Shah,EV-01-07,Quarterly
+Statistical Programming,Change control established,Quality,Gap,71%,2026-02-08,A. Shah,EV-01-08,Per release
+Statistical Programming,Model documentation current,Governance,Complete,74%,2026-03-09,A. Shah,EV-01-09,Quarterly
+Statistical Programming,Periodic monitoring active,Monitoring,Complete,77%,2026-04-10,A. Shah,EV-01-10,Per release
+Statistical Programming,Incident process established,Monitoring,In Progress,80%,2026-05-11,A. Shah,EV-01-11,Quarterly
+Statistical Programming,Retirement plan documented,Lifecycle,Gap,83%,2027-06-12,A. Shah,EV-01-12,Per release
+Data Management,Intended use approved,Governance,Complete,57%,2026-07-01,S. Kumar,EV-02-01,Quarterly
+Data Management,GxP classification documented,Compliance,In Progress,60%,2026-08-02,S. Kumar,EV-02-02,Per release
+Data Management,Privacy assessment completed,Privacy,Gap,63%,2026-09-03,S. Kumar,EV-02-03,Quarterly
+Data Management,Security assessment completed,Security,Complete,66%,2026-10-04,S. Kumar,EV-02-04,Per release
+Data Management,Human oversight documented,Governance,Complete,69%,2026-11-05,S. Kumar,EV-02-05,Quarterly
+Data Management,Validation evidence available,Quality,In Progress,72%,2026-12-06,S. Kumar,EV-02-06,Per release
+Data Management,Audit trail enabled,Compliance,Gap,75%,2026-01-07,S. Kumar,EV-02-07,Quarterly
+Data Management,Change control established,Quality,Complete,78%,2026-02-08,S. Kumar,EV-02-08,Per release
+Data Management,Model documentation current,Governance,Complete,81%,2026-03-09,S. Kumar,EV-02-09,Quarterly
+Data Management,Periodic monitoring active,Monitoring,In Progress,84%,2026-04-10,S. Kumar,EV-02-10,Per release
+Data Management,Incident process established,Monitoring,Gap,87%,2026-05-11,S. Kumar,EV-02-11,Quarterly
+Data Management,Retirement plan documented,Lifecycle,Complete,90%,2027-06-12,S. Kumar,EV-02-12,Per release
+Biostatistics,Intended use approved,Governance,In Progress,64%,2026-07-01,L. Martin,EV-03-01,Quarterly
+Biostatistics,GxP classification documented,Compliance,Gap,67%,2026-08-02,L. Martin,EV-03-02,Per release
+Biostatistics,Privacy assessment completed,Privacy,Complete,70%,2026-09-03,L. Martin,EV-03-03,Quarterly
+Biostatistics,Security assessment completed,Security,Complete,73%,2026-10-04,L. Martin,EV-03-04,Per release
+Biostatistics,Human oversight documented,Governance,In Progress,76%,2026-11-05,L. Martin,EV-03-05,Quarterly
+Biostatistics,Validation evidence available,Quality,Gap,79%,2026-12-06,L. Martin,EV-03-06,Per release
+Biostatistics,Audit trail enabled,Compliance,Complete,82%,2026-01-07,L. Martin,EV-03-07,Quarterly
+Biostatistics,Change control established,Quality,Complete,85%,2026-02-08,L. Martin,EV-03-08,Per release
+Biostatistics,Model documentation current,Governance,In Progress,88%,2026-03-09,L. Martin,EV-03-09,Quarterly
+Biostatistics,Periodic monitoring active,Monitoring,Gap,91%,2026-04-10,L. Martin,EV-03-10,Per release
+Biostatistics,Incident process established,Monitoring,Complete,94%,2026-05-11,L. Martin,EV-03-11,Quarterly
+Biostatistics,Retirement plan documented,Lifecycle,Complete,97%,2027-06-12,L. Martin,EV-03-12,Per release
+Medical Writing,Intended use approved,Governance,Gap,71%,2026-07-01,E. Adams,EV-04-01,Quarterly
+Medical Writing,GxP classification documented,Compliance,Complete,74%,2026-08-02,E. Adams,EV-04-02,Per release
+Medical Writing,Privacy assessment completed,Privacy,Complete,77%,2026-09-03,E. Adams,EV-04-03,Quarterly
+Medical Writing,Security assessment completed,Security,In Progress,80%,2026-10-04,E. Adams,EV-04-04,Per release
+Medical Writing,Human oversight documented,Governance,Gap,83%,2026-11-05,E. Adams,EV-04-05,Quarterly
+Medical Writing,Validation evidence available,Quality,Complete,86%,2026-12-06,E. Adams,EV-04-06,Per release
+Medical Writing,Audit trail enabled,Compliance,Complete,89%,2026-01-07,E. Adams,EV-04-07,Quarterly
+Medical Writing,Change control established,Quality,In Progress,92%,2026-02-08,E. Adams,EV-04-08,Per release
+Medical Writing,Model documentation current,Governance,Gap,95%,2026-03-09,E. Adams,EV-04-09,Quarterly
+Medical Writing,Periodic monitoring active,Monitoring,Complete,98%,2026-04-10,E. Adams,EV-04-10,Per release
+Medical Writing,Incident process established,Monitoring,Complete,50%,2026-05-11,E. Adams,EV-04-11,Quarterly
+Medical Writing,Retirement plan documented,Lifecycle,In Progress,53%,2027-06-12,E. Adams,EV-04-12,Per release
+Clinical Operations,Intended use approved,Governance,Complete,78%,2026-07-01,C. Garcia,EV-05-01,Quarterly
+Clinical Operations,GxP classification documented,Compliance,Complete,81%,2026-08-02,C. Garcia,EV-05-02,Per release
+Clinical Operations,Privacy assessment completed,Privacy,In Progress,84%,2026-09-03,C. Garcia,EV-05-03,Quarterly
+Clinical Operations,Security assessment completed,Security,Gap,87%,2026-10-04,C. Garcia,EV-05-04,Per release
+Clinical Operations,Human oversight documented,Governance,Complete,90%,2026-11-05,C. Garcia,EV-05-05,Quarterly
+Clinical Operations,Validation evidence available,Quality,Complete,93%,2026-12-06,C. Garcia,EV-05-06,Per release
+Clinical Operations,Audit trail enabled,Compliance,In Progress,96%,2026-01-07,C. Garcia,EV-05-07,Quarterly
+Clinical Operations,Change control established,Quality,Gap,99%,2026-02-08,C. Garcia,EV-05-08,Per release
+Clinical Operations,Model documentation current,Governance,Complete,51%,2026-03-09,C. Garcia,EV-05-09,Quarterly
+Clinical Operations,Periodic monitoring active,Monitoring,Complete,54%,2026-04-10,C. Garcia,EV-05-10,Per release
+Clinical Operations,Incident process established,Monitoring,In Progress,57%,2026-05-11,C. Garcia,EV-05-11,Quarterly
+Clinical Operations,Retirement plan documented,Lifecycle,Gap,60%,2027-06-12,C. Garcia,EV-05-12,Per release
+Safety/PV,Intended use approved,Governance,Complete,85%,2026-07-01,H. Johnson,EV-06-01,Quarterly
+Safety/PV,GxP classification documented,Compliance,In Progress,88%,2026-08-02,H. Johnson,EV-06-02,Per release
+Safety/PV,Privacy assessment completed,Privacy,Gap,91%,2026-09-03,H. Johnson,EV-06-03,Quarterly
+Safety/PV,Security assessment completed,Security,Complete,94%,2026-10-04,H. Johnson,EV-06-04,Per release
+Safety/PV,Human oversight documented,Governance,Complete,97%,2026-11-05,H. Johnson,EV-06-05,Quarterly
+Safety/PV,Validation evidence available,Quality,In Progress,100%,2026-12-06,H. Johnson,EV-06-06,Per release
+Safety/PV,Audit trail enabled,Compliance,Gap,52%,2026-01-07,H. Johnson,EV-06-07,Quarterly
+Safety/PV,Change control established,Quality,Complete,55%,2026-02-08,H. Johnson,EV-06-08,Per release
+Safety/PV,Model documentation current,Governance,Complete,58%,2026-03-09,H. Johnson,EV-06-09,Quarterly
+Safety/PV,Periodic monitoring active,Monitoring,In Progress,61%,2026-04-10,H. Johnson,EV-06-10,Per release
+Safety/PV,Incident process established,Monitoring,Gap,64%,2026-05-11,H. Johnson,EV-06-11,Quarterly
+Safety/PV,Retirement plan documented,Lifecycle,Complete,67%,2027-06-12,H. Johnson,EV-06-12,Per release
+Regulatory Affairs,Intended use approved,Governance,In Progress,92%,2026-07-01,R. Thomas,EV-07-01,Quarterly
+Regulatory Affairs,GxP classification documented,Compliance,Gap,95%,2026-08-02,R. Thomas,EV-07-02,Per release
+Regulatory Affairs,Privacy assessment completed,Privacy,Complete,98%,2026-09-03,R. Thomas,EV-07-03,Quarterly
+Regulatory Affairs,Security assessment completed,Security,Complete,50%,2026-10-04,R. Thomas,EV-07-04,Per release
+Regulatory Affairs,Human oversight documented,Governance,In Progress,53%,2026-11-05,R. Thomas,EV-07-05,Quarterly
+Regulatory Affairs,Validation evidence available,Quality,Gap,56%,2026-12-06,R. Thomas,EV-07-06,Per release
+Regulatory Affairs,Audit trail enabled,Compliance,Complete,59%,2026-01-07,R. Thomas,EV-07-07,Quarterly
+Regulatory Affairs,Change control established,Quality,Complete,62%,2026-02-08,R. Thomas,EV-07-08,Per release
+Regulatory Affairs,Model documentation current,Governance,In Progress,65%,2026-03-09,R. Thomas,EV-07-09,Quarterly
+Regulatory Affairs,Periodic monitoring active,Monitoring,Gap,68%,2026-04-10,R. Thomas,EV-07-10,Per release
+Regulatory Affairs,Incident process established,Monitoring,Complete,71%,2026-05-11,R. Thomas,EV-07-11,Quarterly
+Regulatory Affairs,Retirement plan documented,Lifecycle,Complete,74%,2027-06-12,R. Thomas,EV-07-12,Per release
+Quality Assurance,Intended use approved,Governance,Gap,99%,2026-07-01,F. Clark,EV-08-01,Quarterly
+Quality Assurance,GxP classification documented,Compliance,Complete,51%,2026-08-02,F. Clark,EV-08-02,Per release
+Quality Assurance,Privacy assessment completed,Privacy,Complete,54%,2026-09-03,F. Clark,EV-08-03,Quarterly
+Quality Assurance,Security assessment completed,Security,In Progress,57%,2026-10-04,F. Clark,EV-08-04,Per release
+Quality Assurance,Human oversight documented,Governance,Gap,60%,2026-11-05,F. Clark,EV-08-05,Quarterly
+Quality Assurance,Validation evidence available,Quality,Complete,63%,2026-12-06,F. Clark,EV-08-06,Per release
+Quality Assurance,Audit trail enabled,Compliance,Complete,66%,2026-01-07,F. Clark,EV-08-07,Quarterly
+Quality Assurance,Change control established,Quality,In Progress,69%,2026-02-08,F. Clark,EV-08-08,Per release
+Quality Assurance,Model documentation current,Governance,Gap,72%,2026-03-09,F. Clark,EV-08-09,Quarterly
+Quality Assurance,Periodic monitoring active,Monitoring,Complete,75%,2026-04-10,F. Clark,EV-08-10,Per release
+Quality Assurance,Incident process established,Monitoring,Complete,78%,2026-05-11,F. Clark,EV-08-11,Quarterly
+Quality Assurance,Retirement plan documented,Lifecycle,In Progress,81%,2027-06-12,F. Clark,EV-08-12,Per release

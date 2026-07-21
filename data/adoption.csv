@@ -1,0 +1,25 @@
+Department,Role_Group,Eligible_Users,Monthly_Active_Rate_Pct,Training_Completion_Pct,Average_Overrides_Pct,User_Satisfaction_5
+Statistical Programming,Individual Contributor,90,58,62,8,3.7
+Statistical Programming,Manager,25,48,62,8,3.7
+Statistical Programming,Senior Leader,8,48,62,8,3.7
+Data Management,Individual Contributor,93,61,64,9,3.9
+Data Management,Manager,28,51,64,9,3.9
+Data Management,Senior Leader,11,51,64,9,3.9
+Biostatistics,Individual Contributor,96,64,66,10,4.1
+Biostatistics,Manager,31,54,66,10,4.1
+Biostatistics,Senior Leader,14,54,66,10,4.1
+Medical Writing,Individual Contributor,99,67,68,11,4.3
+Medical Writing,Manager,34,57,68,11,4.3
+Medical Writing,Senior Leader,17,57,68,11,4.3
+Clinical Operations,Individual Contributor,102,70,70,12,3.7
+Clinical Operations,Manager,37,60,70,12,3.7
+Clinical Operations,Senior Leader,20,60,70,12,3.7
+Safety/PV,Individual Contributor,105,73,72,8,3.9
+Safety/PV,Manager,40,63,72,8,3.9
+Safety/PV,Senior Leader,23,63,72,8,3.9
+Regulatory Affairs,Individual Contributor,108,76,74,9,4.1
+Regulatory Affairs,Manager,43,66,74,9,4.1
+Regulatory Affairs,Senior Leader,26,66,74,9,4.1
+Quality Assurance,Individual Contributor,111,79,76,10,4.3
+Quality Assurance,Manager,46,69,76,10,4.3
+Quality Assurance,Senior Leader,29,69,76,10,4.3
