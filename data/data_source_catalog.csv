@@ -1,0 +1,11 @@
+Source_Group,Example_Systems,Potential_Metrics,Integration_Method,Scorecard_Use,Source_Type,Suggested_Frequency
+Work management,Jira / Azure DevOps,"Cycle time, backlog, throughput, task complexity",API / scheduled CSV,Efficiency,Operational System,Daily
+Code repositories,GitHub / GitLab,"Commits, pull requests, review time, rework",API,Efficiency; Quality,Operational System,Daily
+Programming execution,"SAS, R, Python logs","Runtime, errors, warnings, reruns, compute",Log parser,Efficiency; Cost; Quality,System Log,Daily
+Validation & QC,Pinnacle 21 / QC trackers,"Defects, severity, recurrence",CSV / API,Quality; Compliance,Quality System,Per release
+Clinical operations,CTMS / EDC,"Milestones, query aging, site activity",Warehouse view,Efficiency; Quality,GxP System,Daily
+Quality management,eQMS / CAPA,"Deviations, CAPAs, audit observations",Approved extract,Compliance; Quality,GxP System,Weekly
+Learning,LMS,"Training completion, qualification",API / CSV,Adoption; Compliance,Enterprise System,Weekly
+Finance,ERP / procurement,"Licenses, labor cost, infrastructure",Warehouse view,Cost,Financial System,Monthly
+Identity,Entra ID / directory,"Role, department, active account",API,Access Control,Enterprise System,Daily
+User feedback,Forms / Qualtrics,"Satisfaction, trust, usability",CSV / API,Adoption,Survey,Monthly
