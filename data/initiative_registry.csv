@@ -1,0 +1,24 @@
+Initiative_ID,Initiative,Department,Owner,Lifecycle,Pilot_Start,Next_Review,Risk_Level,Benefit_Status,Intended_Use,Technology,Vendor
+AI-001,TLF Shell Generation Assistant,Biostatistics,A. Shah,Pilot,2026-01-15,2026-09-15,High,Forecast,Draft TLF shell content for human review,LLM,Internal
+AI-002,SAP Consistency Reviewer,Biostatistics,N. Mehta,Validation,2025-10-01,2026-10-01,Medium,Validated,Review SAP consistency and completeness,LLM,Internal
+AI-003,Sample Size Scenario Assistant,Biostatistics,J. Miller,Experiment,2026-03-05,2026-08-30,Medium,Forecast,Support sample-size scenario generation,LLM,Approved vendor
+AI-004,Bayesian Simulation Workbench,Biostatistics,P. Rao,Production,2025-04-15,2026-11-15,Low,Realized,Run governed Bayesian simulations,LLM,Internal
+AI-005,SDTM Mapping Copilot,Statistical Programming,M. Lee,Scale Candidate,2025-09-01,2026-09-01,Low,Realized,Assist SDTM mapping specification development,LLM,Internal
+AI-006,ADaM Metadata Generator,Statistical Programming,R. Patel,Validation,2025-11-01,2026-10-20,Medium,Validated,Generate ADaM metadata drafts,LLM,Approved vendor
+AI-007,Define.xml Documentation Assistant,Statistical Programming,C. Nguyen,Pilot,2026-01-20,2026-09-20,Medium,Validated,Draft Define.xml documentation,LLM,Internal
+AI-008,TLF Programming Assistant,Statistical Programming,S. Williams,Production,2025-03-10,2026-12-10,Low,Realized,Assist TLF programming with human QC,LLM,Internal
+AI-009,Independent QC Automation,Statistical Programming,D. Kim,Business Case,2026-04-01,2026-09-30,High,Forecast,Support independent programming QC,LLM,Approved vendor
+AI-010,Data Query Drafting Assistant,Data Management,R. Gomez,Pilot,2025-11-10,2026-08-20,Medium,Validated,Draft data queries from structured findings,LLM,Internal
+AI-011,Medical Coding Review Assistant,Data Management,L. Foster,Validation,2025-09-12,2026-10-12,Medium,Validated,Support medical coding review,LLM,Internal
+AI-012,External Data Reconciliation Assistant,Data Management,T. Singh,Production,2025-05-18,2026-11-18,Low,Realized,Assist reconciliation of external data,LLM,Approved vendor
+AI-013,Edit Check Optimization Assistant,Data Management,B. Carter,Experiment,2026-03-22,2026-08-22,High,Forecast,Suggest optimized edit checks,LLM,Internal
+AI-014,Protocol Feasibility Summarizer,Clinical Operations,K. Brown,Experiment,2026-02-05,2026-09-05,High,Forecast,Summarize protocol feasibility information,LLM,Internal
+AI-015,Site Risk Prioritization Assistant,Clinical Operations,H. Davis,Controlled Pilot,2025-08-25,2026-10-25,Medium,Validated,Prioritize sites for risk-based oversight,ML/LLM,Approved vendor
+AI-016,Enrollment Forecasting Assistant,Clinical Operations,E. Wilson,Production,2025-02-15,2026-12-01,Low,Realized,Forecast enrollment scenarios,ML/LLM,Internal
+AI-017,Monitoring Visit Summarizer,Clinical Operations,G. Thomas,Pilot,2026-01-08,2026-09-08,Medium,Validated,Summarize monitoring visit notes,LLM,Internal
+AI-018,CSR Content Review Assistant,Medical Writing,S. Patel,Pilot,2025-10-12,2026-10-12,Medium,Validated,Assist CSR content review,LLM,Approved vendor
+AI-019,Protocol Amendment Summarizer,Medical Writing,F. Martin,Scale Candidate,2025-07-21,2026-11-21,Low,Realized,Summarize protocol amendments,LLM,Internal
+AI-020,Patient Narrative Drafting Assistant,Medical Writing,V. Jackson,Validation,2025-12-05,2026-09-25,High,Validated,Draft patient narratives for review,LLM,Internal
+AI-021,Safety Case Triage Assistant,Pharmacovigilance,D. Chen,Controlled Pilot,2025-08-01,2026-09-01,High,Validated,Prioritize safety cases for human triage,ML/LLM,Approved vendor
+AI-022,Signal Detection Review Assistant,Pharmacovigilance,M. Hernandez,Production,2025-01-12,2026-12-12,Low,Realized,Support signal detection review,ML/LLM,Internal
+AI-023,Literature Screening Assistant,Pharmacovigilance,Q. Roberts,Pilot,2026-02-18,2026-09-18,Medium,Forecast,Prioritize literature for human screening,LLM,Internal

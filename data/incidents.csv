@@ -1,0 +1,8 @@
+Incident_ID,Initiative_ID,Department,Severity,Status,Opened_Date,Summary
+INC-001,AI-014,Clinical Operations,Critical,Open,2026-06-28,Unsupported summary statement detected during review.
+INC-002,AI-001,Biostatistics,Major,Open,2026-06-20,Evidence package incomplete for forecast assumptions.
+INC-003,AI-013,Data Management,Critical,Open,2026-07-02,Suggested edit check conflicted with approved specification.
+INC-004,AI-020,Medical Writing,Major,Open,2026-07-09,Narrative draft required substantial factual correction.
+INC-005,AI-021,Pharmacovigilance,Major,Monitoring,2026-06-14,Triage priority discrepancy identified and corrected.
+INC-006,AI-007,Statistical Programming,Minor,Closed,2026-05-10,Formatting inconsistency corrected before use.
+INC-007,AI-012,Data Management,Minor,Closed,2026-04-18,Duplicate reconciliation record removed.

@@ -1,0 +1,14 @@
+Control_ID,Initiative_ID,Department,Control,Status,Due_Date,Owner,Priority
+GC-001,AI-001,Biostatistics,Evidence validation plan,Overdue,2026-05-15,A. Shah,High
+GC-002,AI-001,Biostatistics,Compliance review,Overdue,2026-05-30,QA Partner,Critical
+GC-003,AI-003,Biostatistics,Statistical review plan,Open,2026-09-01,N. Mehta,Medium
+GC-004,AI-006,Statistical Programming,Validation evidence refresh,In Progress,2026-08-25,R. Patel,High
+GC-005,AI-009,Statistical Programming,QC independence assessment,Overdue,2026-06-20,D. Kim,High
+GC-006,AI-010,Data Management,Evidence refresh,In Progress,2026-08-15,R. Gomez,Medium
+GC-007,AI-013,Data Management,Risk assessment update,Overdue,2026-06-30,B. Carter,Critical
+GC-008,AI-014,Clinical Operations,Human review confirmation,Overdue,2026-07-05,K. Brown,High
+GC-009,AI-015,Clinical Operations,Model monitoring review,Open,2026-09-15,H. Davis,High
+GC-010,AI-017,Clinical Operations,Pilot outcome review,In Progress,2026-09-08,G. Thomas,Medium
+GC-011,AI-020,Medical Writing,Narrative quality review,Overdue,2026-07-10,V. Jackson,Critical
+GC-012,AI-021,Pharmacovigilance,Human oversight verification,Complete,2026-06-01,D. Chen,Critical
+GC-013,AI-023,Pharmacovigilance,Literature scope validation,Open,2026-09-18,Q. Roberts,Medium
