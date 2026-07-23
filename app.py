@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-st.set_page_config(page_title="Clinexa AI | Value & Governance", page_icon="📊", layout="wide")
+st.set_page_config(page_title="Clinical AI Value & Governance", page_icon="📊", layout="wide")
 DATA = Path(__file__).parent / "data"
 DEPT_COLORS = {
     "Biostatistics": "#2563EB",
