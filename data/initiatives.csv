@@ -1,0 +1,24 @@
+Initiative_ID,Initiative,Department,Owner,Lifecycle,Annual_Investment_USD,Forecast_Annual_Benefit_USD,Validated_Annual_Benefit_USD,Realized_Annual_Benefit_USD,Efficiency_Score,Quality_Score,Adoption_Score,Compliance_Score,Financial_Score,Evidence_Source,Evidence_Confidence,Evidence_Strength,Risk_Level,Benefit_Status,Pilot_Start,Next_Review
+AI-001,TLF Shell Generation Assistant,Biostatistics,A. Shah,Pilot,80000,170000,80000,0,68,62,58,75,50,Survey,30,Low,High,Forecast,2026-01-15,2026-09-15
+AI-002,SAP Consistency Reviewer,Biostatistics,N. Mehta,Validation,115000,260000,180000,85000,82,88,74,86,78,Validated upload,80,High,Medium,Validated,2025-10-01,2026-10-01
+AI-003,Sample Size Scenario Assistant,Biostatistics,J. Miller,Experiment,60000,125000,45000,0,63,72,49,79,38,User estimate,30,Low,Medium,Forecast,2026-03-05,2026-08-30
+AI-004,Bayesian Simulation Workbench,Biostatistics,P. Rao,Production,210000,620000,510000,370000,91,90,84,93,96,Automated system log,100,High,Low,Realized,2025-04-15,2026-11-15
+AI-005,SDTM Mapping Copilot,Statistical Programming,M. Lee,Scale Candidate,120000,300000,225000,140000,86,84,79,88,94,Enterprise database,90,High,Low,Realized,2025-09-01,2026-09-01
+AI-006,ADaM Metadata Generator,Statistical Programming,R. Patel,Validation,140000,360000,245000,125000,84,82,73,85,88,Validated upload,80,High,Medium,Validated,2025-11-01,2026-10-20
+AI-007,Define.xml Documentation Assistant,Statistical Programming,C. Nguyen,Pilot,90000,210000,120000,30000,76,80,66,83,67,Manual spreadsheet,60,Medium,Medium,Validated,2026-01-20,2026-09-20
+AI-008,TLF Programming Assistant,Statistical Programming,S. Williams,Production,260000,780000,650000,490000,94,89,88,92,100,Automated system log,100,High,Low,Realized,2025-03-10,2026-12-10
+AI-009,Independent QC Automation,Statistical Programming,D. Kim,Business Case,75000,180000,60000,0,70,86,55,77,40,Survey,50,Medium,High,Forecast,2026-04-01,2026-09-30
+AI-010,Data Query Drafting Assistant,Data Management,R. Gomez,Pilot,95000,190000,105000,45000,74,71,64,78,55,Manual spreadsheet,60,Medium,Medium,Validated,2025-11-10,2026-08-20
+AI-011,Medical Coding Review Assistant,Data Management,L. Foster,Validation,130000,310000,205000,90000,80,87,69,84,79,Validated upload,80,High,Medium,Validated,2025-09-12,2026-10-12
+AI-012,External Data Reconciliation Assistant,Data Management,T. Singh,Production,180000,470000,390000,275000,88,86,81,90,92,Enterprise database,90,High,Low,Realized,2025-05-18,2026-11-18
+AI-013,Edit Check Optimization Assistant,Data Management,B. Carter,Experiment,70000,150000,55000,0,69,73,52,68,39,User estimate,30,Low,High,Forecast,2026-03-22,2026-08-22
+AI-014,Protocol Feasibility Summarizer,Clinical Operations,K. Brown,Experiment,70000,145000,50000,15000,66,68,61,72,36,User estimate,30,Low,High,Forecast,2026-02-05,2026-09-05
+AI-015,Site Risk Prioritization Assistant,Clinical Operations,H. Davis,Controlled Pilot,155000,420000,280000,120000,83,85,72,87,85,Enterprise database,90,High,Medium,Validated,2025-08-25,2026-10-25
+AI-016,Enrollment Forecasting Assistant,Clinical Operations,E. Wilson,Production,240000,690000,570000,410000,90,84,86,91,98,Automated system log,100,High,Low,Realized,2025-02-15,2026-12-01
+AI-017,Monitoring Visit Summarizer,Clinical Operations,G. Thomas,Pilot,105000,235000,125000,35000,72,76,65,76,61,Validated upload,80,High,Medium,Validated,2026-01-08,2026-09-08
+AI-018,CSR Content Review Assistant,Medical Writing,S. Patel,Pilot,110000,250000,150000,80000,81,78,72,82,68,Validated upload,80,High,Medium,Validated,2025-10-12,2026-10-12
+AI-019,Protocol Amendment Summarizer,Medical Writing,F. Martin,Scale Candidate,125000,325000,240000,135000,85,83,77,89,90,Enterprise database,90,High,Low,Realized,2025-07-21,2026-11-21
+AI-020,Patient Narrative Drafting Assistant,Medical Writing,V. Jackson,Validation,165000,390000,215000,70000,79,81,68,73,72,Manual spreadsheet,60,Medium,High,Validated,2025-12-05,2026-09-25
+AI-021,Safety Case Triage Assistant,Pharmacovigilance,D. Chen,Controlled Pilot,160000,330000,175000,50000,76,88,63,91,55,Automated system log,100,High,High,Validated,2025-08-01,2026-09-01
+AI-022,Signal Detection Review Assistant,Pharmacovigilance,M. Hernandez,Production,280000,760000,610000,430000,92,93,85,96,100,Enterprise database,90,High,Low,Realized,2025-01-12,2026-12-12
+AI-023,Literature Screening Assistant,Pharmacovigilance,Q. Roberts,Pilot,100000,220000,115000,25000,75,79,67,74,58,Survey,50,Medium,Medium,Forecast,2026-02-18,2026-09-18
