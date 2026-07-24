@@ -33,7 +33,14 @@ st.markdown("""
 }
 html,body,[class*="css"]{color:var(--charcoal)}
 .stApp{background:var(--soft)}
-.block-container{padding-top:.8rem;padding-bottom:1.7rem;max-width:1480px}
+.block-container{
+  padding-top:.6rem!important;
+  padding-bottom:1rem!important;
+  padding-left:1rem!important;
+  padding-right:1rem!important;
+  max-width:100%!important;
+  width:100%!important;
+}
 
 /* Sidebar */
 [data-testid="stSidebar"]{background:linear-gradient(180deg,#3B2367 0%,#552B86 52%,#6A3191 100%);border-right:1px solid #34205E}
