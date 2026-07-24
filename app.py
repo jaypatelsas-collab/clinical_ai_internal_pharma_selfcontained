@@ -90,8 +90,37 @@ html,body,[class*="css"]{color:var(--charcoal)}
 [data-testid="stMetricLabel"],[data-testid="stMetricValue"]{color:var(--charcoal)!important}
 hr{border-color:var(--line)!important}
 
-@media(max-width:1100px){.kpi-grid{grid-template-columns:repeat(2,minmax(150px,1fr))}}
-@media(max-width:700px){.kpi-grid{grid-template-columns:1fr}.hero h1{font-size:1.38rem}}
+/* ======= CHATGPT FIX START: locked executive rows ======= */
+.st-key-executive_kpi_row [data-testid="stHorizontalBlock"],
+.st-key-executive_chart_row [data-testid="stHorizontalBlock"]{
+  display:flex!important;
+  flex-wrap:nowrap!important;
+  align-items:stretch!important;
+  gap:.65rem!important;
+}
+.st-key-executive_kpi_row [data-testid="column"]{
+  flex:1 1 0!important;
+  width:16.6667%!important;
+  min-width:0!important;
+}
+.st-key-executive_chart_row [data-testid="column"]{
+  flex:1 1 0!important;
+  width:50%!important;
+  min-width:0!important;
+}
+.st-key-executive_kpi_row .kpi-card{
+  height:100%;
+  min-height:132px;
+  padding:13px 12px 12px;
+  box-sizing:border-box;
+}
+.st-key-executive_kpi_row .kpi-label{font-size:.69rem;line-height:1.2}
+.st-key-executive_kpi_row .kpi-value{font-size:1.38rem;margin-top:8px}
+.st-key-executive_kpi_row .kpi-note{font-size:.68rem;line-height:1.25;margin-top:8px}
+.st-key-executive_chart_row [data-testid="stPlotlyChart"]{width:100%!important;}
+/* ======= CHATGPT FIX END: locked executive rows ======= */
+
+@media(max-width:700px){.hero h1{font-size:1.38rem}}
 </style>
 """, unsafe_allow_html=True)
 
@@ -208,11 +237,53 @@ if page == "Executive Command Center":
         ("Realized benefit", f"${f.Realized_Annual_Benefit_USD.sum()/1000:,.0f}K", "Benefit already realized"),
         ("Evidence-adjusted net", f"${f.Evidence_Adjusted_Value.sum()/1000:,.0f}K", "Validated value adjusted for evidence and investment"),
     ]
-    cards = ''.join([f'<div class="kpi-card"><div class="kpi-label">{label}</div><div class="kpi-value">{value}</div><div class="kpi-note">{note}</div></div>' for label,value,note in kpis])
-    st.markdown(f'<div class="kpi-grid">{cards}</div>', unsafe_allow_html=True)
+    # ======= CHATGPT FIX START: six native KPI columns in one row =======
+    with st.container(key="executive_kpi_row"):
+        kpi_columns = st.columns(6, gap="small")
+        for column, (label, value, note) in zip(kpi_columns, kpis):
+            with column:
+                st.markdown(
+                    f'<div class="kpi-card"><div class="kpi-label">{label}</div>'
+                    f'<div class="kpi-value">{value}</div>'
+                    f'<div class="kpi-note">{note}</div></div>',
+                    unsafe_allow_html=True,
+                )
+    # ======= CHATGPT FIX END: six native KPI columns in one row =======
 
-    st.markdown('<div class="section-card"><div class="section-title">Portfolio Value, Compliance and Risk</div><div class="section-subtitle">Each bubble is an initiative. Color represents department, bubble size represents annual investment, and risk is available in the hover details.</div></div>', unsafe_allow_html=True)
-    fig = px.scatter(
+    # ======= CHATGPT FIX START: two executive charts side by side =======
+    department_summary = (
+        f.groupby("Department", as_index=False)
+        .agg(
+            AI_Value_Score=("AI_Value_Score", "mean"),
+            Initiative_Count=("Initiative_ID", "count"),
+        )
+        .sort_values("AI_Value_Score", ascending=False)
+    )
+
+    department_fig = px.bar(
+        department_summary,
+        x="Department",
+        y="AI_Value_Score",
+        color="Department",
+        color_discrete_map=DEPT_COLORS,
+        text="AI_Value_Score",
+        hover_data={"Initiative_Count": True, "AI_Value_Score": ":.1f", "Department": False},
+    )
+    department_fig.update_traces(
+        texttemplate="%{text:.1f}",
+        textposition="outside",
+        cliponaxis=False,
+        marker_line_width=0,
+    )
+    polish_figure(department_fig, height=430)
+    department_fig.update_layout(
+        showlegend=False,
+        margin=dict(l=18, r=18, t=22, b=74),
+        xaxis=dict(title="", tickangle=-28),
+        yaxis=dict(title="Average AI value score", range=[0, 105]),
+    )
+
+    portfolio_fig = px.scatter(
         f,
         x="Compliance_Score",
         y="AI_Value_Score",
@@ -231,16 +302,57 @@ if page == "Executive Command Center":
         text="Initiative_ID",
         size_max=34,
     )
-    fig.add_hline(y=75, line_dash="dot", line_color="#94a3b8")
-    fig.add_vline(x=80, line_dash="dot", line_color="#94a3b8")
-    fig.update_traces(textposition="top center", textfont=dict(size=10), marker=dict(line=dict(width=1, color="#ffffff")))
-    polish_figure(fig, height=430)
-    fig.update_layout(
-        legend=dict(orientation="h", yanchor="bottom", y=1.01, xanchor="left", x=0, title_text="Department"),
+    portfolio_fig.add_hline(y=75, line_dash="dot", line_color="#94a3b8")
+    portfolio_fig.add_vline(x=80, line_dash="dot", line_color="#94a3b8")
+    portfolio_fig.update_traces(
+        textposition="top center",
+        textfont=dict(size=10),
+        marker=dict(line=dict(width=1, color="#ffffff")),
+    )
+    polish_figure(portfolio_fig, height=430)
+    portfolio_fig.update_layout(
+        legend=dict(
+            orientation="h",
+            yanchor="bottom",
+            y=1.01,
+            xanchor="left",
+            x=0,
+            title_text="Department",
+            font=dict(size=9),
+        ),
+        margin=dict(l=18, r=18, t=58, b=34),
         xaxis=dict(title="Compliance score", range=[35, 102]),
         yaxis=dict(title="AI value score", range=[0, 105]),
     )
-    st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
+
+    with st.container(key="executive_chart_row"):
+        chart_left, chart_right = st.columns(2, gap="medium")
+        with chart_left:
+            st.markdown(
+                '<div class="section-card"><div class="section-title">Department Value Score</div>'
+                '<div class="section-subtitle">Average AI value score by department for the selected portfolio.</div></div>',
+                unsafe_allow_html=True,
+            )
+            st.plotly_chart(
+                department_fig,
+                use_container_width=True,
+                config={"displayModeBar": False},
+                key="executive_department_value_chart",
+            )
+
+        with chart_right:
+            st.markdown(
+                '<div class="section-card"><div class="section-title">Portfolio Value, Compliance and Risk</div>'
+                '<div class="section-subtitle">Each bubble is an initiative. Color represents department and bubble size represents annual investment.</div></div>',
+                unsafe_allow_html=True,
+            )
+            st.plotly_chart(
+                portfolio_fig,
+                use_container_width=True,
+                config={"displayModeBar": False},
+                key="executive_portfolio_scatter_chart",
+            )
+    # ======= CHATGPT FIX END: two executive charts side by side =======
 
     high = f[(f.Risk_Level == "High") & (f.Compliance_Score < 80)]
     weak = f[f.Evidence_Confidence < 70]
